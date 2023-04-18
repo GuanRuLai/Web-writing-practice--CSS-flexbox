@@ -1,1 +1,69 @@
-
+.flexbox-practice{
+    box-sizing: border-box;
+    margin-right: 27px;
+    display: inline-block;
+}
+.separation-line{
+    margin-top: 30px;
+    margin-left: 38px;
+    margin-right: 27px;
+    margin-bottom: 8px;
+    border-top: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    height: 10px;
+    width: 180px;
+}
+.header{
+    margin-top: -8px;
+    margin-left: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
+}
+.cards{
+    margin-top: 30px;
+    width: 756px;
+    height: 696px;
+    display: flex;
+    align-items: stretch;
+    gap: 7px;
+    align-content: space-between;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+.flexbox-content{
+    width: 246px;
+    border-right: 0.5px solid #D8D8D8;
+    border-bottom: 0.5px solid #D8D8D8;
+    padding-bottom: 40px;
+}
+.flexbox-content img{
+    width: 100%;
+    height: 148px;
+    margin-bottom: 10px;
+}
+.flexbox-content span{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #A67A44;
+}
+.flexbox-content h2{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+.flexbox-content div{
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #D0D0D0;
+}
